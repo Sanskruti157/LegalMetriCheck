@@ -1,0 +1,7 @@
+[functions.ocr-extract]
+verify_jwt = true
+entrypoint = "./functions/ocr-extract/index.ts"
+
+[functions.compliance-check]
+verify_jwt = true
+entrypoint = "./functions/compliance-check/index.ts"
